@@ -1200,6 +1200,7 @@ a {
 /*===================================================================================*/
 header{
     background: #fdd922;
+    margin-bottom: 30px;
 }
 
 .main-header {
@@ -2997,7 +2998,8 @@ font-family: FontAwesome;
 .copyright-bar {
   background: #2e353b;
   padding: 35px 0px;
-  border-top:1px rgba(255,255,255,0.1) solid
+  border-top:1px rgba(255,255,255,0.1) solid;
+
 }
 .copyright-bar .copyright {
   color: #72797e;
@@ -4030,7 +4032,7 @@ font-family: FontAwesome;
 
 .single-product .product-info .quantity-container .label {
   font-size: 14px;
-  line-height: 35px;
+  line-height: 45px;
   color: #666666;
   padding: 0px;
   font-weight: normal;
@@ -5698,7 +5700,8 @@ font-size: 24px;
     background-color: #fff;
     padding: 20px;
     overflow: hidden;
-  border-radius:5px
+  border-radius:5px;
+  margin-bottom: 30px;
 }
 
 .body-content .sign-in-page .sign-in h4,
