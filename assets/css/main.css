@@ -1327,7 +1327,7 @@ header{
   position: relative;
 }
 .top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .total-price-basket {
-    padding: 0px 0px 13px 5px;
+    padding: 12px 0px 13px 5px;
    font-family: 'Barlow', sans-serif;
     letter-spacing: 0.2px;
 	display:inline-block;
@@ -7379,3 +7379,6 @@ li.dropdown.navbar-right.special-menu {
 
 .home-banner { margin-top: 30px;}
 .home-banner img {border-radius:5px}	
+.colgray{
+  color: #ccc;
+}
