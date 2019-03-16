@@ -431,7 +431,7 @@ img[src="assets/images/blank.gif"] {
 .custom-carousel .owl-controls {
   position: absolute;
   right: 20px;
-  top: -38px;
+  top: -46px;
   width: 100%;
   display: block;
 }
@@ -5369,7 +5369,6 @@ font-family: FontAwesome;
   display: block;
   font-size: 16px;
   color: #555;
-  text-transform: uppercase;
 }
 .shopping-cart .estimate-ship-tax table tbody tr td .form-group label,
 .shopping-cart .estimate-ship-tax table tbody tr td .form-group input,
