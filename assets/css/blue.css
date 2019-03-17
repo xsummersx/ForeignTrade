@@ -55,6 +55,7 @@ a {
   background: #157ed2;
   border-top: 1px solid hsla(0,0%,100%,.2);
   border-radius: 0px 0px 0px 200px;
+  margin-top: 30px;
 }
 .cnt-home .header-style-1 .header-nav .navbar .navbar-nav > li.active {
 

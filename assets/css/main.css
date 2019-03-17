@@ -439,7 +439,7 @@ img[src="assets/images/blank.gif"] {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: -25px;
+  top: -18px;
   right: 27px;
   -webkit-transition: all linear 0.2s;
   -moz-transition: all linear 0.2s;
@@ -464,7 +464,7 @@ img[src="assets/images/blank.gif"] {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: -25px;
+  top: -18px;
   right: 0px;
   -webkit-transition: all linear 0.2s;
   -moz-transition: all linear 0.2s;
@@ -1204,7 +1204,7 @@ header{
 }
 
 .main-header {
-  padding:25px 0px 0px 0px;
+  padding:15px 0px 0px 0px;
   background: #157ed2;
 }
 .main-header .logo-holder {
@@ -1680,8 +1680,8 @@ header{
     border-radius: 10px;
 }
 
-.sidebar .custom-carousel .owl-controls .owl-prev  {top: -20px;}
-.sidebar .custom-carousel .owl-controls .owl-next  {top: -20px;}
+.sidebar .custom-carousel .owl-controls .owl-prev  {top: -11px;}
+.sidebar .custom-carousel .owl-controls .owl-next  {top: -11px;}
 
 .sidebar .side-menu .head {
   border-radius: 10px 10px 0px 0px;
@@ -2840,7 +2840,7 @@ font-family: FontAwesome;
   left: 50%;
   position:absolute;
    top:0;
-    margin-left:-70px
+    margin-left:34px
  
 }
 .product .cart .action ul li {
@@ -3490,15 +3490,10 @@ font-family: FontAwesome;
     width: 100%;
     display: block;
     position: relative;
-    padding-top: 125%;
+    overflow: hidden;
 }
 .item .products .image a img {
     width: 100%;
-    position: absolute;
-    height: 100%;
-    top: 0;
-    left: 0;
-    object-fit: cover;
 }
 
 .item .products .image a .hover-image {
@@ -3522,7 +3517,7 @@ font-family: FontAwesome;
 }
 
 
-.item .products .image a:before {
+/* .item .products .image a:before {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -3536,7 +3531,7 @@ font-family: FontAwesome;
 	-o-transition: all 0.4s ease-out 0.2s;
 	transition: all 0.4s ease-out 0.2s;
 	background-color: #ccc;
-}
+} */
 
 .hot-deals .hot-deal-wrapper .sale-offer-tag {
   -webkit-border-radius: 50px;
@@ -3959,7 +3954,7 @@ font-family: FontAwesome;
 
 .single-product .product-info-block .name {margin-top:0px; font-weight:600; letter-spacing:normal; font-size:40px}
 
-.single-product .single-product-gallery {padding-bottom:30px}
+.single-product .single-product-gallery {}
 
 .single-product .favorite-button .btn-primary {background:#ddd; border-radius:999px; padding: 10px 14px;}
 
@@ -4002,7 +3997,6 @@ font-family: FontAwesome;
   border-bottom: 1px solid #F2F2F2;
   border-top: 1px solid #F2F2F2;
   margin-bottom: 0;
-  padding: 20px 0;
 }
 .single-product .product-info .price-container .price-box .price {
   font-size: 30px;
@@ -4022,7 +4016,7 @@ font-family: FontAwesome;
 }
 .single-product .product-info .quantity-container {
   margin-bottom: 0;
-  padding: 30px 0;
+  padding: 25px 0 0 0;
 }
 
 .single-product .qty {float:left; padding-left:15px}
