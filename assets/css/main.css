@@ -1208,7 +1208,7 @@ header{
   background: #157ed2;
 }
 .main-header .logo-holder {
-  margin-top:5px;
+  margin-top:-7px;
 }
 .main-header .top-search-holder .contact-row {
   line-height: 20px;
@@ -2837,7 +2837,7 @@ font-family: FontAwesome;
   transition: all 0.5s linear 0s;
   width: 100%;
   z-index: 666;
-  left: 50%;
+  left: 11%;
   position:absolute;
    top:0;
     margin-left:34px
@@ -5233,7 +5233,7 @@ font-family: FontAwesome;
 }
 
 .shopping-cart .cart-image img {
- width:150px
+ width:250px
 }
 
 .cart-shopping-total {background:#f8f8f8}
@@ -5287,7 +5287,7 @@ font-family: FontAwesome;
 }
 .shopping-cart .shopping-cart-table .table > thead > tr > th {
   text-align: center;
-  padding: 18px;
+  padding: 18px 10px;
   font-size: 15px;
   font-weight:600;
   border-bottom: 1px solid #e5e5e5;
@@ -5677,7 +5677,7 @@ font-size: 24px;
 .table > tfoot > tr > td {
   vertical-align: middle;
   border: none;
-  padding: 30px;
+  padding: 10px;
 }
 .body-content .my-wishlist-page .my-wishlist table tbody .close-btn a,
 .body-content .my-wishlist-page .my-wishlist table tbody .close-btn a:hover {
