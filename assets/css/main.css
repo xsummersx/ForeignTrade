@@ -2002,7 +2002,7 @@ header{
 #owl-main {
   text-align: center;
   cursor: default;
-  height: 520px;
+  height: 400px;
 }
 #owl-main .owl-controls {
   display: inline-block;
@@ -2358,7 +2358,7 @@ header{
   background-color: #FFFFFF;
   background-position: center 55%;
   background-size: cover;
-  height: 520px;
+  height: 400px;
 }
 #owl-main .item .caption {
   color: #636363;
