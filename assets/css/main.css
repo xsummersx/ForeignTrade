@@ -7375,3 +7375,21 @@ li.dropdown.navbar-right.special-menu {
 .colgray{
   color: #ccc;
 }
+.tab-content{
+  overflow: hidden;
+  padding: 20px;
+}
+.item-carousel{
+  width: 210px;
+  float: left;
+  margin: 4px;
+}
+.paginationBox{
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #eaeaea;
+}
+.pagination{
+  margin: 5px auto;
+}
