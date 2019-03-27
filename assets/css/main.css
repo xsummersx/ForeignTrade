@@ -1588,9 +1588,10 @@ header{
   padding: 6px 0px;
 	font-size:14px;
 	color:#565656;
-	
 }
-
+.yamm .dropdown-menu .yamm-content .links li a:hover {
+	color: #333 !important;
+}
 
 .yamm .dropdown-menu h2 {
   font-size: 16px;
