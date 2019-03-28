@@ -1582,7 +1582,7 @@ header{
 
 }
 
-.yamm .dropdown-menu .yamm-content .col-menu {min-width:150px}
+.yamm .dropdown-menu .yamm-content .col-menu {}
 
 .yamm .dropdown-menu .yamm-content .links li a {
   padding: 6px 0px;
@@ -1606,6 +1606,10 @@ header{
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+.NavItem > li{
+  width: 150px;
+  float: left;
 }
 .yamm .dropdown-menu li a {
   color: #3D3D3D;
@@ -7381,7 +7385,7 @@ li.dropdown.navbar-right.special-menu {
   padding: 20px;
 }
 .item-carousel{
-  width: 210px;
+  width: 185px;
   float: left;
   margin: 4px;
 }
