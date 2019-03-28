@@ -7385,9 +7385,7 @@ li.dropdown.navbar-right.special-menu {
   padding: 20px;
 }
 .item-carousel{
-  width: 185px;
-  float: left;
-  margin: 4px;
+  margin: 0 0 25px 0;
 }
 .paginationBox{
   width: 100%;
