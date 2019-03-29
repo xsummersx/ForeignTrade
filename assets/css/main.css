@@ -2812,7 +2812,7 @@ font-family: FontAwesome;
 .product .product-info .name {
   font-size: 16px;
   font-family:'Barlow', sans-serif;
-  font-weight:600
+  font-weight:600;
 }
 .product .product-info .name a {
   color: #555;
@@ -3496,6 +3496,7 @@ font-family: FontAwesome;
     display: block;
     position: relative;
     overflow: hidden;
+    height: 150px;
 }
 .item .products .image a img {
     width: 100%;
