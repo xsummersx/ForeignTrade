@@ -2709,6 +2709,8 @@ header{
   display: block;
   text-align: center;
   line-height: 22px;
+  font-size: 12px;
+  font-weight: normal;
 
 }
 .our-features-box .feature-box span {
@@ -2723,7 +2725,7 @@ header{
 	font-style: italic;
 }
 .icon-truck:before {
-	content: "\f0d1";
+	content: "\f015";
 }
 .icon-truck, .icon-money, .icon-support, .icon-return {
 font-family: FontAwesome;
@@ -2739,13 +2741,13 @@ font-family: FontAwesome;
 
 }
 .icon-money:before {
-	content: "\f155";
+	content: "\f26b";
 }
 .icon-support:before {
 	content: "\f095";
 }
 .icon-return:before {
-	content: "\f0b1";
+	content: "\f007";
 }
 /* ======================== End Features Box ============================ */
 
@@ -5250,7 +5252,7 @@ font-family: FontAwesome;
 }
 .shopping-cart .shopping-cart-table table tbody tr .romove-item a:hover,
 .shopping-cart .shopping-cart-table table tbody tr .romove-item a:focus {
-  color: #ff000 !important;
+  color: #ff0000 !important;
 }
 .shopping-cart .shopping-cart-table table tbody tr .cart-image .entry-thumbnail {
   display: block;
