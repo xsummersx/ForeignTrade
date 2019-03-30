@@ -7399,3 +7399,26 @@ li.dropdown.navbar-right.special-menu {
 .pagination{
   margin: 5px auto;
 }
+/*动态aspx页面的分页*/
+#AnpPaging > a{
+  padding:5px 10px;
+  display: inline-block;
+  border: #ccc 1px solid;
+  border-radius: 3px;
+  color:#ccc;
+}
+#AnpPaging > a:hover{
+  border: #157ed2 1px solid;
+  color: #157ed2;
+}
+#AnpPaging > span.cpb{
+  padding:5px 10px;
+  display: inline-block;
+  border-radius: 3px;
+  border: #157ed2 1px solid;
+  color: #157ed2;
+}
+#AnpPaging > a[disabled]:hover{
+  color:#ccc;
+  border: #ccc 1px solid;
+}
