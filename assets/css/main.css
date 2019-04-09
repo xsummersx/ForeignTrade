@@ -2658,7 +2658,7 @@ header{
   margin-top:30px;
 }
 
-.our-features-box .container{ padding:0px; width:100%}
+.our-features-box .container{}
 
 .our-features-box ul {
 	list-style: none;
@@ -2669,12 +2669,14 @@ header{
 	overflow: hidden
 }
 .our-features-box li {
-	float: left;
-	margin-bottom: 0px;
+  float: left;
+  margin-left: 1%;
+	margin-bottom: 1%;
 	text-align: center;
-	width: 25%;
+	width: 100%;
 	padding: 0;
-	display: inline-block;
+  display: inline-block;
+  margin-top: 1%;
 }
 .our-features-box li.last {
 	margin-right: 0;
@@ -2692,7 +2694,7 @@ header{
 .our-features-box .feature-box {
     overflow: hidden;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     color: #121212;
     line-height: 1.4em;
     font-weight: 500;
@@ -2706,7 +2708,7 @@ header{
 
 
 .our-features-box .feature-box .content-blocks {
-  display: block;
+  display: inline-block;
   text-align: center;
   line-height: 22px;
   font-size: 12px;
@@ -2728,17 +2730,17 @@ header{
 	content: "\f015";
 }
 .icon-truck, .icon-money, .icon-support, .icon-return {
-font-family: FontAwesome;
-    display: block !important;
+    font-family: FontAwesome;
+    display: inline-block;
     font-size: 20px;
     margin: auto;
-    color: #121212;
-    width: 65px!important;
+    color: #4f4f4f;
+    width:45px!important;
     text-align: center;
-	margin-bottom:15px
-
-
-
+    padding: 6px;
+    border: 2px solid #4f4f4f;
+    border-radius: 8px;
+    float: left;
 }
 .icon-money:before {
 	content: "\f26b";
@@ -7421,4 +7423,42 @@ li.dropdown.navbar-right.special-menu {
 #AnpPaging > a[disabled]:hover{
   color:#ccc;
   border: #ccc 1px solid;
+}
+/* more */
+.font-more{
+  margin-top: 8px;
+  font-weight: bold;
+}
+.font-more>a{
+  color: #666;
+}
+.font-more>a:hover{
+  color: #0f6cb2
+}
+/* 联系我们 */
+.feature-box{
+  overflow: hidden;
+  width:100%;
+}
+.content-blocks{
+  float: left;
+  line-height: 44px;
+  margin-left: 15px;
+}
+.noBor{
+  border:none;
+  font-size: 34px;
+}
+.fontH{
+  line-height: 60px;
+  font-size: 18px;
+}
+/* 简介 */
+.aboutUs{
+  text-indent: 2em;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 30px;
+  word-wrap:break-word;  
+  word-break:break-all;  
 }
