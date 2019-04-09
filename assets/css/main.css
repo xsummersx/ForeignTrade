@@ -2695,7 +2695,7 @@ header{
     overflow: hidden;
     font-size: 18px;
     text-align: left;
-    color: #121212;
+    color: #333;
     line-height: 1.4em;
     font-weight: 500;
     font-family:'Barlow', sans-serif;
@@ -2709,11 +2709,14 @@ header{
 
 .our-features-box .feature-box .content-blocks {
   display: inline-block;
-  text-align: center;
-  line-height: 22px;
+  text-align: left;
+  line-height: 32px;
   font-size: 12px;
   font-weight: normal;
 
+}
+.our-features-box .feature-box .content-blocks.text-adr{
+  line-height: 16px;
 }
 .our-features-box .feature-box span {
 	font-size: 12px;
@@ -2735,9 +2738,9 @@ header{
     font-size: 20px;
     margin: auto;
     color: #4f4f4f;
-    width:45px!important;
+    width:34px!important;
     text-align: center;
-    padding: 6px;
+    padding: 2px;
     border: 2px solid #4f4f4f;
     border-radius: 8px;
     float: left;
@@ -7452,6 +7455,15 @@ li.dropdown.navbar-right.special-menu {
 .fontH{
   line-height: 60px;
   font-size: 18px;
+}
+.feetText{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+.feetsubText{
+  line-height: 34px;
+  font-size: 14px;
 }
 /* 简介 */
 .aboutUs{
