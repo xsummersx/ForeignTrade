@@ -1100,7 +1100,7 @@ a {
 .top-bar {
   padding:0px;
   font-size: 14px;
-  background: #157ed2;
+  background: #fff;
 }
 .top-bar .cnt-account {
   float: right;
@@ -1205,7 +1205,7 @@ header{
 
 .main-header {
   padding:15px 0px 0px 0px;
-  background: #157ed2;
+  background: #fff;
 }
 .main-header .logo-holder {
   margin-top:-7px;
@@ -2650,7 +2650,7 @@ header{
 
 .our-features-box {
 	overflow: hidden;
-    background: #e9e9de;
+    background: #989996;
     padding-top: 40px;
     padding-bottom: 40px;
 	margin-bottom: 0px;
@@ -3008,8 +3008,8 @@ header{
   line-height: 1.7;
 }
 .copyright-bar {
-  background: #2e353b;
-  padding: 35px 0px;
+  background: #000;
+  padding: 15px 0px;
   border-top:1px rgba(255,255,255,0.1) solid;
 
 }
@@ -7457,9 +7457,10 @@ li.dropdown.navbar-right.special-menu {
   font-size: 18px;
 }
 .feetText{
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #4f4f4f;
   padding-bottom: 20px;
   margin-top: 10px;
+  color: #4f4f4f;
 }
 .feetsubText{
   line-height: 34px;
