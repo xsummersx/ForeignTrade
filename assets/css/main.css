@@ -48,7 +48,7 @@ a {
 }
 body {
   font-size: 13px;
-  color: #333;
+  color: #000;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -125,7 +125,7 @@ img[src="assets/images/blank.gif"] {
   -ms-transition: all linear 0.2s;
   -o-transition: all linear 0.2s;
   transition: all linear 0.2s;
-  background: #108bea;
+  background: #989996;
   color: #fff;
   border: none;
   font-size: 14px;
@@ -570,7 +570,7 @@ img[src="assets/images/blank.gif"] {
 
 .special-product .product .image img {width:100%}
 .special-product .product .col {padding-right:0px}
-.special-product .product .btn-primary {background:none; padding:0px; color:#157ed2; text-decoration:underline; margin-top:5px;}
+.special-product .product .btn-primary {background:none; padding:0px; color:#989996; text-decoration:underline; margin-top:5px;}
 
 .special-product .product:last-child {
   margin-top: 20px;
@@ -1122,7 +1122,7 @@ a {
 
 }
 .top-bar .cnt-account ul > li a {
-  color:rgba(255,255,255,0.8);
+  color:#000;
   padding: 0px;
   font-weight: 400;
   -webkit-transition: all 0.2s linear 0s;
@@ -1142,6 +1142,7 @@ a {
 .top-bar .cnt-account ul > li a:hover,
 .top-bar .cnt-account ul > li a:focus {
   text-decoration: none;
+  color: #989996;
 }
 .top-bar .cnt-block {
   float: left;
@@ -1165,7 +1166,7 @@ a {
       text-transform: capitalize;
 }
 .top-bar .cnt-block .list-inline > li > a .value {
-  color: rgba(255,255,255,0.8);
+  color: #000;
   margin: 2px 4px 2px 7px;
 }
 .top-bar .cnt-block .list-inline > li > a:hover,
@@ -1231,7 +1232,8 @@ header{
   border-radius: 0px;
   margin: 8px 0 0;
   background:#fff;
-  border-radius:999px;
+  border: 1px solid #989996;
+  border-radius: 30px;
 }
 
 .top-search-holder {padding-left:0px}
@@ -1293,9 +1295,9 @@ header{
   display: inline-block;
   float: right;
   margin: 0px;
-  padding: 19px 25px 19px;
+  padding: 20px 25px 19px;
   text-align: center;
-    background-color: #fdd922;
+    background-color: #989996;
 
 }
 .main-header .top-search-holder .search-area .search-button:after {
@@ -1369,8 +1371,8 @@ header{
     left: 20px;
     top: 10px;
     width: 18px;
-    background: #fdd922;
-    color: #0f6cb2;
+    background: #989996;
+    color: #fff;
     font-size: 11px;
     text-align: center;
     line-height: 19px;;
@@ -2860,14 +2862,14 @@ header{
 }
 .product .cart .action ul li.add-cart-button .btn.btn-primary.icon {
   border-radius: 999px;
-  background: #fdd922 ;
+  background: #989996 ;
   padding: 10px 14px;
   margin-left:3px;
   margin-right:3px
 }
 .product .cart .action ul li.lnk {
   margin: 10px 0px;
-      background: #0f6cb2;
+      background: #989996;
     margin: 0px;
     padding: 12px 4px;
 	border-radius:999px;
@@ -2879,8 +2881,8 @@ header{
   color: #fff;
   padding: 8px 10px;
 }
-.product .cart .action ul li.lnk.wishlist {
-	background:#0f6cb2;
+.product .cart .action ul li.lnk:hover {
+	background:#b1b3af;
 	margin:0px 3px;
 	border-radius:999px
 	
@@ -2941,7 +2943,7 @@ header{
 .cart .action .add-cart-button .btn.btn-primary.icon {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
-  background: #fdd922 ;
+  background: #ccc ;
   color:#333
 }
 
@@ -4035,7 +4037,7 @@ header{
 .single-product .qty {float:left; padding-left:15px}
 .single-product .qty-count {float:left;  padding-left:15px}
 .single-product .add-btn {float:left;  padding-left:15px}
-.single-product .add-btn .btn-primary {padding:12px 30px; font-size: 18px; background-color: #fdd922; color:#333}
+.single-product .add-btn .btn-primary {padding:12px 30px; font-size: 18px; background-color: #989996; color:#333}
 
 .single-product .product-info .quantity-container .label {
   font-size: 14px;
@@ -7413,15 +7415,15 @@ li.dropdown.navbar-right.special-menu {
   color:#ccc;
 }
 #AnpPaging > a:hover{
-  border: #157ed2 1px solid;
-  color: #157ed2;
+  border: #989996 1px solid;
+  color: #989996;
 }
 #AnpPaging > span.cpb{
   padding:5px 10px;
   display: inline-block;
   border-radius: 3px;
-  border: #157ed2 1px solid;
-  color: #157ed2;
+  border: #000 1px solid;
+  color: #000;
 }
 #AnpPaging > a[disabled]:hover{
   color:#ccc;
