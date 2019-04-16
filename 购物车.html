@@ -1,40 +1,44 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="MediaCenter, Template, eCommerce">
-    <meta name="robots" content="all">
-    <title>购物车</title>
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Customizable CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/blue.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/owl.transitions.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/rateit.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-    <!-- Icons/Glyphs -->
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
-</head>
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="keywords" content="MediaCenter, Template, eCommerce">
+        <meta name="robots" content="all">
+        <title>购物车</title>
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Customizable CSS -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/blue.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl.transitions.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/rateit.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+        <!-- Icons/Glyphs -->
+        <link rel="stylesheet" href="assets/css/font-awesome.css">
+    </head>
 
-<body class="cnt-home">
-    <!-- ============================================== HEADER ============================================== -->
-    <header class="header-style-1">
+    <body class="cnt-home">
+        <!-- ============================================== HEADER ============================================== -->
+        <header class="header-style-1">
             <!-- ============================================== TOP MENU ============================================== -->
+            <!-- ↓↓↓4.16修改过的头部↓↓↓ -->
             <div class="top-bar animate-dropdown">
                 <div class="container">
                     <div class="header-top-inner">
                         <div class="cnt-account">
-                            <ul class="list-unstyled">
-                                <li class="login"><a href="#"><span>我的购物车</span></a></li>
-                                <li class="login"><a href="#"><span>退出登录</span></a></li>
+                            <ul class="header_info">
+                                <li class=""><a href="#"><i class="fa fa-user"></i><span>MEMBER
+                                            ACCESS</span></a></li>
+                                <li class=""><a href="购物车.html"><i class="fa
+                                            fa-shopping-cart"></i><span>ACCESS
+                                            SHOP NOW</span></a></li>
                             </ul>
                         </div>
                         <!-- /.cnt-cart -->
@@ -44,243 +48,332 @@
                 </div>
                 <!-- /.container -->
             </div>
+            <!-- ↑↑↑4.16修改过的头部↑↑↑ -->
             <div class="main-header">
                 <div class="container">
+                    <!-- ↓↓↓4.16修改过的头部↓↓↓ -->
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
+                        <div class="logo-holder">
                             <!-- ============================================================= LOGO ============================================================= -->
                             <div class="logo">
-                                <a href="#主页"><img src="assets/images/logo.png" alt="logo"></a>
+                                <a href="#主页"><img src="assets/images/logo.png"
+                                        alt="logo"></a>
                             </div>
                         </div>
-                        <div class="col-lg-7 col-md-6 col-sm-8 col-xs-12 top-search-holder">
-                            <!-- /.contact-row -->
-                            <!-- ============================================================= SEARCH AREA ============================================================= -->
-                            <div class="search-area">
-                                <div class="control-group">
-                                    <ul class="categories-filter animate-dropdown">
-                                        <li class="dropdown">
-                                            <a class="dropdown-toggle" data-toggle="dropdown" href="category.html"></a>
-                                        </li>
-                                    </ul>
-                                    <input class="search-field" placeholder="请输入搜索的内容" />
-                                    <a class="search-button" href="#"></a>
-                                </div>
-                            </div>
-                            <!-- /.row -->
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 animate-dropdown top-cart-row">
-                            <!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
-                            <div class="dropdown dropdown-cart">
-                                <a href="#" class="dropdown-toggle lnk-cart" data-toggle="dropdown">
-                                    <div class="items-cart-inner">
-                                        <div class="basket">
-                                            <div class="basket-item-count"><span class="count">2</span></div>
-                                            <div class="total-price-basket"> <span class="lbl">购物车</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <div class="cart-item product-summary">
-                                            <div class="row">
-                                                <div class="col-xs-6">
-                                                    <div class="image">
-                                                        <a href="产品详情.html"><img src="assets/picture/Green/fakePlants/DSC_0003.jpg" alt=""></a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xs-5">
-                                                    <h3 class="name"><a href="产品详情.html">Green</a></h3>
-                                                    <div class="price">Textile</div>
-                                                </div>
-                                                <div class="col-xs-1 action"> <a href="#"><i class="fa fa-trash"></i></a> </div>
-                                            </div>
-                                        </div>
-                                        <!-- /.cart-item -->
-                                        <div class="clearfix"></div>
-                                        <hr>
-                                        <div class="clearfix cart-total">
-                                            <div class="pull-right"> <span class="text">总共 :</span><span class='price'>1件</span> </div>
-                                            <div class="clearfix"></div>
-                                            <a href="购物车.html" class="btn btn-upper btn-primary btn-block m-t-20">进入购物车</a> </div>
-                                        <!-- /.cart-total-->
-                                    </li>
-                                </ul>
-                                <!-- /.dropdown-menu-->
+                        <div class="top-search-holder">
+                            <div class="search">
+                                <input type="text" placeholder="Search">
+                                <i class="fa fa-search searchIcon"></i>
                             </div>
                         </div>
                         <!-- /.container -->
                     </div>
+                    <!-- ↑↑↑4.16修改过的头部↑↑↑ -->
                     <div class="header-nav animate-dropdown">
                         <div class="container">
-                            <div class="yamm navbar navbar-default" role="navigation">
+                            <div class="yamm navbar navbar-default"
+                                role="navigation">
                                 <div class="nav-bg-class">
-                                    <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
+                                    <div class="navbar-collapse collapse"
+                                        id="mc-horizontal-menu-collapse">
                                         <div class="nav-outer">
                                             <!-- 修改过的导航 --><!-- 修改过的导航 --><!-- 修改过的导航 -->
                                             <!-- 修改过的导航 --><!-- 修改过的导航 --><!-- 修改过的导航 -->
                                             <!-- 修改过的导航 --><!-- 修改过的导航 --><!-- 修改过的导航 -->
                                             <ul class="nav navbar-nav">
-                                                    <li class="active dropdown">
-                                                        <a href="主页.html">Home</a>
-                                                    </li>
-                                                    <li class="dropdown yamm
-                                                        mega-menu">
-                                                        <a href="产品列表.html"
-                                                            data-hover="dropdown"
-                                                            class="dropdown-toggle">Fabric</a>
-                                                        <ul class="dropdown-menu
-                                                            container">
-                                                            <li>
+                                                <li class="active dropdown">
+                                                    <a href="主页.html">Home</a>
+                                                </li>
+                                                <li class="dropdown yamm
+                                                    mega-menu">
+                                                    <a href="产品列表.html"
+                                                        data-hover="dropdown"
+                                                        class="dropdown-toggle">Fabric</a>
+                                                    <ul class="dropdown-menu
+                                                        container">
+                                                        <li>
+                                                            <div
+                                                                class="yamm-content">
                                                                 <div
-                                                                    class="yamm-content">
+                                                                    class="row">
                                                                     <div
-                                                                        class="row">
-                                                                        <div
-                                                                            class="col-xs-12
-                                                                            col-md-12
-                                                                            col-menu">
-                                                                            <ul
-                                                                                class="links
-                                                                                NavItem">
-                                                                                <li><a
-                                                                                        href="产品列表.html">PhotoFrame</a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">JewelryBox
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">WallPlaque
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Cabinet
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Tray
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Coaster</a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">PiggyBank
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">CandleHolder
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Mirror
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">LED
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Hooks</a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Clock
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">TableDeco
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Stool
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">KeyBox
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">PhotoFrame</a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">JewelryBox
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">WallPlaque
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Cabinet
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Tray
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Coaster</a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">PiggyBank
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">CandleHolder
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Mirror
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">LED
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Hooks</a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Clock
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">TableDeco
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Stool
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">KeyBox
-                                                                                    </a></li>
-                                                                            </ul>
-                                                                        </div>
+                                                                        class="col-xs-12
+                                                                        col-md-12
+                                                                        col-menu">
+                                                                        <ul
+                                                                            class="links
+                                                                            NavItem">
+                                                                            <li><a
+                                                                                    href="产品列表.html">PhotoFrame</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">JewelryBox
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">WallPlaque
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Cabinet
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Tray
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Coaster</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">PiggyBank
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">CandleHolder
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Mirror
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">LED
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Hooks</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Clock
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">TableDeco
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Stool
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">KeyBox
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">PhotoFrame</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">JewelryBox
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">WallPlaque
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Cabinet
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Tray
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Coaster</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">PiggyBank
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">CandleHolder
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Mirror
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">LED
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Hooks</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Clock
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">TableDeco
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Stool
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">KeyBox
+                                                                                </a></li>
+                                                                        </ul>
                                                                     </div>
                                                                 </div>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown mega-menu">
-                                                        <a href="产品列表.html"
-                                                            data-hover="dropdown"
-                                                            class="dropdown-toggle">Metal</a>
-                                                        <ul class="dropdown-menu
-                                                            container">
-                                                            <li>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown mega-menu">
+                                                    <a href="产品列表.html"
+                                                        data-hover="dropdown"
+                                                        class="dropdown-toggle">Metal</a>
+                                                    <ul class="dropdown-menu
+                                                        container">
+                                                        <li>
+                                                            <div
+                                                                class="yamm-content">
                                                                 <div
-                                                                    class="yamm-content">
+                                                                    class="row">
                                                                     <div
-                                                                        class="row">
-                                                                        <div
-                                                                            class="col-xs-12
-                                                                            col-md-12
-                                                                            col-menu">
-                                                                            <ul
-                                                                                class="links
-                                                                                NavItem">
-                                                                                <li><a
-                                                                                        href="产品列表.html">PhotoFrame</a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">JewelryBox
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">WallPlaque
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Cabinet
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Tray
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Coaster</a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">PiggyBank
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">CandleHolder
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Mirror
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">LED
-                                                                                    </a></li>
+                                                                        class="col-xs-12
+                                                                        col-md-12
+                                                                        col-menu">
+                                                                        <ul
+                                                                            class="links
+                                                                            NavItem">
+                                                                            <li><a
+                                                                                    href="产品列表.html">PhotoFrame</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">JewelryBox
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">WallPlaque
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Cabinet
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Tray
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Coaster</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">PiggyBank
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">CandleHolder
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Mirror
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">LED
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Hooks</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Clock
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">TableDeco
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Stool
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">KeyBox
+                                                                                </a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- /.row -->
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown mega-menu">
+                                                    <a href="产品列表.html"
+                                                        data-hover="dropdown"
+                                                        class="dropdown-toggle">Wood
+                                                        <span class="menu-label
+                                                            hot-menu hidden-xs">hot</span></a>
+                                                    <ul class="dropdown-menu
+                                                        container">
+                                                        <li>
+                                                            <div
+                                                                class="yamm-content">
+                                                                <div
+                                                                    class="row">
+                                                                    <div
+                                                                        class="col-xs-12
+                                                                        col-md-12
+                                                                        col-menu">
+                                                                        <ul
+                                                                            class="links
+                                                                            NavItem">
+                                                                            <li><a
+                                                                                    href="产品列表.html">PhotoFrame</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">JewelryBox
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">WallPlaque
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Cabinet
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Tray
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Coaster</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">PiggyBank
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">CandleHolder
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Mirror
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">LED
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Hooks</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Clock
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">TableDeco
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Stool
+                                                                                </a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- /.row -->
+                                                            </div>
+                                                            <!-- /.yamm-content -->
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown mega-menu">
+                                                    <a href="产品列表.html"
+                                                        data-hover="dropdown"
+                                                        class="dropdown-toggle">Plastic
+                                                    </a>
+                                                    <ul class="dropdown-menu
+                                                        container">
+                                                        <li>
+                                                            <div
+                                                                class="yamm-content">
+                                                                <div
+                                                                    class="row">
+                                                                    <div
+                                                                        class="col-xs-12
+                                                                        col-md-12
+                                                                        col-menu">
+                                                                        <ul
+                                                                            class="links
+                                                                            NavItem">
+                                                                            <li><a
+                                                                                    href="产品列表.html">PhotoFrame</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">JewelryBox
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">WallPlaque
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Cabinet
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Tray
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Coaster</a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">PiggyBank
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">CandleHolder
+                                                                                </a></li>
+                                                                            <li><a
+                                                                                    href="产品列表.html">Mirror
+                                                                                </a>
                                                                                 <li><a
                                                                                         href="产品列表.html">Hooks</a></li>
                                                                                 <li><a
@@ -294,73 +387,6 @@
                                                                                     </a></li>
                                                                                 <li><a
                                                                                         href="产品列表.html">KeyBox
-                                                                                    </a></li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- /.row -->
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown mega-menu">
-                                                        <a href="产品列表.html"
-                                                            data-hover="dropdown"
-                                                            class="dropdown-toggle">Wood
-                                                            <span class="menu-label
-                                                                hot-menu hidden-xs">hot</span></a>
-                                                        <ul class="dropdown-menu
-                                                            container">
-                                                            <li>
-                                                                <div
-                                                                    class="yamm-content">
-                                                                    <div
-                                                                        class="row">
-                                                                        <div
-                                                                            class="col-xs-12
-                                                                            col-md-12
-                                                                            col-menu">
-                                                                            <ul
-                                                                                class="links
-                                                                                NavItem">
-                                                                                <li><a
-                                                                                        href="产品列表.html">PhotoFrame</a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">JewelryBox
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">WallPlaque
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Cabinet
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Tray
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Coaster</a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">PiggyBank
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">CandleHolder
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Mirror
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">LED
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Hooks</a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Clock
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">TableDeco
-                                                                                    </a></li>
-                                                                                <li><a
-                                                                                        href="产品列表.html">Stool
                                                                                     </a></li>
                                                                             </ul>
                                                                         </div>
@@ -371,10 +397,11 @@
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li class="dropdown mega-menu">
+                                                    <li class="dropdown
+                                                        mega-menu">
                                                         <a href="产品列表.html"
                                                             data-hover="dropdown"
-                                                            class="dropdown-toggle">Plastic
+                                                            class="dropdown-toggle">Cement
                                                         </a>
                                                         <ul class="dropdown-menu
                                                             container">
@@ -414,96 +441,30 @@
                                                                                     </a></li>
                                                                                 <li><a
                                                                                         href="产品列表.html">Mirror
-                                                                                    </a>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">Hooks</a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">Clock
-                                                                                        </a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">TableDeco
-                                                                                        </a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">Stool
-                                                                                        </a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">KeyBox
-                                                                                        </a></li>
-                                                                                </ul>
-                                                                            </div>
+                                                                                    </a></li>
+                                                                                <li><a
+                                                                                        href="产品列表.html">LED
+                                                                                    </a></li>
+                                                                                <li><a
+                                                                                        href="产品列表.html">Hooks</a></li>
+                                                                                <li><a
+                                                                                        href="产品列表.html">Clock
+                                                                                    </a></li>
+                                                                            </ul>
                                                                         </div>
-                                                                        <!-- /.row -->
                                                                     </div>
-                                                                    <!-- /.yamm-content -->
-                                                                </li>
-                                                            </ul>
-                                                    </li>
-                                                    <li class="dropdown mega-menu">
-                                                            <a href="产品列表.html"
-                                                                data-hover="dropdown"
-                                                                class="dropdown-toggle">Cement
-                                                            </a>
-                                                            <ul class="dropdown-menu
-                                                                container">
-                                                                <li>
-                                                                    <div
-                                                                        class="yamm-content">
-                                                                        <div
-                                                                            class="row">
-                                                                            <div
-                                                                                class="col-xs-12
-                                                                                col-md-12
-                                                                                col-menu">
-                                                                                <ul
-                                                                                    class="links
-                                                                                    NavItem">
-                                                                                    <li><a
-                                                                                            href="产品列表.html">PhotoFrame</a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">JewelryBox
-                                                                                        </a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">WallPlaque
-                                                                                        </a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">Cabinet
-                                                                                        </a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">Tray
-                                                                                        </a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">Coaster</a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">PiggyBank
-                                                                                        </a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">CandleHolder
-                                                                                        </a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">Mirror
-                                                                                        </a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">LED
-                                                                                        </a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">Hooks</a></li>
-                                                                                    <li><a
-                                                                                            href="产品列表.html">Clock
-                                                                                        </a></li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!-- /.row -->
-                                                                    </div>
-                                                                    <!-- /.yamm-content -->
-                                                                </li>
-                                                            </ul>
+                                                                    <!-- /.row -->
+                                                                </div>
+                                                                <!-- /.yamm-content -->
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li class="dropdown
                                                         mega-menu">
                                                         <a href="简介.html"
                                                             data-hover="dropdown"
-                                                            class="dropdown-toggle">About us
+                                                            class="dropdown-toggle">About
+                                                            us
                                                         </a>
                                                     </li>
                                                     <li class="dropdown
@@ -519,213 +480,283 @@
                                                 <!-- 修改过的导航 --><!-- 修改过的导航 --><!-- 修改过的导航 -->
                                                 <!-- 修改过的导航 --><!-- 修改过的导航 --><!-- 修改过的导航 -->
                                                 <!-- /.navbar-nav -->
-                                            <div class="clearfix"></div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <!-- /.nav-outer -->
                                         </div>
-                                        <!-- /.nav-outer -->
+                                        <!-- /.navbar-collapse -->
                                     </div>
-                                    <!-- /.navbar-collapse -->
+                                    <!-- /.nav-bg-class -->
                                 </div>
-                                <!-- /.nav-bg-class -->
+                                <!-- /.navbar-default -->
                             </div>
-                            <!-- /.navbar-default -->
+                            <!-- /.container-class -->
                         </div>
-                        <!-- /.container-class -->
                     </div>
                 </div>
-            </div>
-        </header>
-    <!-- ============================================== HEADER : END ============================================== -->
-    <div class="body-content outer-top-xs">
-        <div class="container">
-            <div class="row">
-                <div class="shopping-cart">
-                    <div class="shopping-cart-table">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th class="cart-description item">产品图片</th>
-                                        <th class="cart-product-name item" style="text-align:left">商品信息</th>
-                                        <th class="cart-sub-total item">产品类型</th>
-                                        <th class="cart-romove item">操作</th>
-                                    </tr>
-                                </thead>
-                                <!-- /thead -->
-                                <tbody>
-                                    <tr>
-                                        <td class="cart-image" width="40%">
-                                            <a class="entry-thumbnail" href="detail.html">
-                                                <img src="assets/picture/Green/fakePlants/DSC_0008.JPG" alt="">
-                                            </a>
-                                        </td>
-                                        <td class="cart-product-name-info">
-                                            <h4 class='cart-product-description'><a href="detail.html">Green</a></h4>
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="reviews">
-                                                        硬包装
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- /.row -->
-                                            <div class="cart-product-info">
-                                                <span class="product-color">材质:<span>陶瓷</span></span>
-                                            </div>
-                                        </td>
-                                        <td class="cart-product-sub-total"><span class="cart-sub-total-price">Textile</span></td>
-                                        <td class="romove-item"><a href="#" title="cancel" class="icon"><i class="fa fa-trash-o"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cart-image">
-                                            <a class="entry-thumbnail" href="detail.html">
-                                            <img src="assets/picture/Green/fakePlants/DSC_0008.JPG" alt="">
-                                            </a>
-                                        </td>
-                                        <td class="cart-product-name-info">
-                                            <h4 class='cart-product-description'><a href="detail.html">Green</a></h4>
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="reviews">
-                                                        硬包装
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- /.row -->
-                                            <div class="cart-product-info">
-                                                <span class="product-color">材质:<span>陶瓷</span></span>
-                                            </div>
-                                        </td>
-                                        <td class="cart-product-sub-total"><span class="cart-sub-total-price">Textile</span></td>
-                                        <td class="romove-item"><a href="#" title="cancel" class="icon"><i class="fa fa-trash-o"></i></a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <div class="action text-center outer-top-xs">
-                                    <button class="btn btn-primary btn-upper">Continue Shopping</button>
-                                </div>
-                            <!-- /tbody -->
-                            <!-- /table -->
-                        </div>
-                    </div>
-                    <div class="detail-block" style="margin-bottom:30px;border-top:1px solid #f2f3f7;">
-                        <div class="review-form">
-                            <div class="form-container">
-                                <form class="cnt-form">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <label for="exampleInputName">Name<span class="astk">*</span></label>
-                                                <input type="text" class="form-control txt" id="exampleInputName" placeholder="">
-                                            </div>
-                                            <!-- /.form-group -->
-                                            <div class="form-group">
-                                                <label for="exampleInputSummary">Photo<span class="astk">*</span></label>
-                                                <input type="text" class="form-control txt" id="exampleInputSummary" placeholder="">
-                                            </div>
-                                            <!-- /.form-group -->
-                                        </div>
-
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <label for="exampleInputCompany">Company<span class="astk">*</span></label>
-                                                <input type="text" class="form-control txt" id="exampleInputCompany" placeholder="">
-                                            </div>
-                                            <!-- /.form-group -->
-                                            <div class="form-group">
-                                                <label for="exampleInputMail">Mail<span class="astk">*</span></label>
-                                                <input type="text" class="form-control txt" id="exampleInputMail" placeholder="">
-                                            </div>
-                                            <!-- /.form-group -->
-                                        </div>
-                                    </div>
-                                    <!-- /.row -->
-
-                                    <div class="action text-center outer-top-xs">
-                                        <button class="btn btn-primary btn-upper">Submit</button>
-                                    </div>
-                                    <!-- /.action -->
-
-                                </form>
-                                <!-- /.cnt-form -->
-                            </div>
-                            <!-- /.form-container -->
-                        </div>
-                        <!-- /.review-form -->
-                    </div>
-                </div>
-                <!-- /.shopping-cart -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.body-content -->
-        <!-- ============================================== INFO BOXES ============================================== -->
-        <div class="row our-features-box">
+            </header>
+            <!-- ============================================== HEADER : END ============================================== -->
+            <div class="body-content outer-top-xs">
                 <div class="container">
-                    <div class="col-md-12" style="margin:0 auto">
-                        <div class="col-md-4">
-                            <img src="assets/images/us.png"
-                                style="height:240px;">
+                    <div class="row">
+                        <div class="shopping-cart">
+                            <div class="shopping-cart-table">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="cart-description
+                                                    item">产品图片</th>
+                                                <th class="cart-product-name
+                                                    item"
+                                                    style="text-align:left">商品信息</th>
+                                                <th class="cart-sub-total item">产品类型</th>
+                                                <th class="cart-romove item">操作</th>
+                                            </tr>
+                                        </thead>
+                                        <!-- /thead -->
+                                        <tbody>
+                                            <tr>
+                                                <td class="cart-image"
+                                                    width="40%">
+                                                    <a class="entry-thumbnail"
+                                                        href="detail.html">
+                                                        <img
+                                                            src="assets/picture/Green/fakePlants/DSC_0008.JPG"
+                                                            alt="">
+                                                    </a>
+                                                </td>
+                                                <td
+                                                    class="cart-product-name-info">
+                                                    <h4
+                                                        class='cart-product-description'><a
+                                                            href="detail.html">Green</a></h4>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div
+                                                                class="reviews">
+                                                                硬包装
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.row -->
+                                                    <div
+                                                        class="cart-product-info">
+                                                        <span
+                                                            class="product-color">材质:<span>陶瓷</span></span>
+                                                    </div>
+                                                </td>
+                                                <td
+                                                    class="cart-product-sub-total"><span
+                                                        class="cart-sub-total-price">Textile</span></td>
+                                                <td class="romove-item"><a
+                                                        href="#" title="cancel"
+                                                        class="icon"><i
+                                                            class="fa
+                                                            fa-trash-o"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="cart-image">
+                                                    <a class="entry-thumbnail"
+                                                        href="detail.html">
+                                                        <img
+                                                            src="assets/picture/Green/fakePlants/DSC_0008.JPG"
+                                                            alt="">
+                                                    </a>
+                                                </td>
+                                                <td
+                                                    class="cart-product-name-info">
+                                                    <h4
+                                                        class='cart-product-description'><a
+                                                            href="detail.html">Green</a></h4>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div
+                                                                class="reviews">
+                                                                硬包装
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.row -->
+                                                    <div
+                                                        class="cart-product-info">
+                                                        <span
+                                                            class="product-color">材质:<span>陶瓷</span></span>
+                                                    </div>
+                                                </td>
+                                                <td
+                                                    class="cart-product-sub-total"><span
+                                                        class="cart-sub-total-price">Textile</span></td>
+                                                <td class="romove-item"><a
+                                                        href="#" title="cancel"
+                                                        class="icon"><i
+                                                            class="fa
+                                                            fa-trash-o"></i></a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="action text-center
+                                        outer-top-xs">
+                                        <button class="btn btn-primary
+                                            btn-upper">Continue Shopping</button>
+                                    </div>
+                                    <!-- /tbody -->
+                                    <!-- /table -->
+                                </div>
+                            </div>
+                            <div class="detail-block"
+                                style="margin-bottom:30px;border-top:1px solid
+                                #f2f3f7;">
+                                <div class="review-form">
+                                    <div class="form-container">
+                                        <form class="cnt-form">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label
+                                                            for="exampleInputName">Name<span
+                                                                class="astk">*</span></label>
+                                                        <input type="text"
+                                                            class="form-control
+                                                            txt"
+                                                            id="exampleInputName"
+                                                            placeholder="">
+                                                    </div>
+                                                    <!-- /.form-group -->
+                                                    <div class="form-group">
+                                                        <label
+                                                            for="exampleInputSummary">Photo<span
+                                                                class="astk">*</span></label>
+                                                        <input type="text"
+                                                            class="form-control
+                                                            txt"
+                                                            id="exampleInputSummary"
+                                                            placeholder="">
+                                                    </div>
+                                                    <!-- /.form-group -->
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label
+                                                            for="exampleInputCompany">Company<span
+                                                                class="astk">*</span></label>
+                                                        <input type="text"
+                                                            class="form-control
+                                                            txt"
+                                                            id="exampleInputCompany"
+                                                            placeholder="">
+                                                    </div>
+                                                    <!-- /.form-group -->
+                                                    <div class="form-group">
+                                                        <label
+                                                            for="exampleInputMail">Mail<span
+                                                                class="astk">*</span></label>
+                                                        <input type="text"
+                                                            class="form-control
+                                                            txt"
+                                                            id="exampleInputMail"
+                                                            placeholder="">
+                                                    </div>
+                                                    <!-- /.form-group -->
+                                                </div>
+                                            </div>
+                                            <!-- /.row -->
+
+                                            <div class="action text-center
+                                                outer-top-xs">
+                                                <button class="btn btn-primary
+                                                    btn-upper">Submit</button>
+                                            </div>
+                                            <!-- /.action -->
+
+                                        </form>
+                                        <!-- /.cnt-form -->
+                                    </div>
+                                    <!-- /.form-container -->
+                                </div>
+                                <!-- /.review-form -->
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <h3 class="feetText">&nbsp;</h3>
-                            <p class="feetsubText">Life can not lack beauty,<br />product can not lack inspiration,<br />you can not lack LUNA HOUSE.</p>    
-                        </div>
-                        <div class="col-md-4">
+                        <!-- /.shopping-cart -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.body-content -->
+                <!-- ============================================== INFO BOXES ============================================== -->
+                <div class="row our-features-box">
+                    <div class="container">
+                        <div class="col-md-12" style="margin:0 auto">
+                            <div class="col-md-4">
+                                <img src="assets/images/us.png"
+                                    style="height:240px;">
+                            </div>
+                            <div class="col-md-4">
+                                <h3 class="feetText">&nbsp;</h3>
+                                <p class="feetsubText">Life can not lack beauty,<br
+                                        />product can not lack inspiration,<br
+                                        />you can not lack LUNA HOUSE.</p>
+                            </div>
+                            <div class="col-md-4">
                                 <h3 class="feetText">CONTACT US</h3>
-                            <ul>
-                                <li>
-                                    <div class="feature-box">
-                                        <div class="icon-truck"></div>
-                                        <div class="content-blocks text-adr">Address:Room 1003,changchunbuilding,<br />No.159 Lingqiao Road,Ningbo,China</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="feature-box">
-                                        <div class="icon-support"></div>
-                                        <div class="content-blocks">Call:13857863806</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="feature-box">
-                                        <div class="icon-money"></div>
-                                        <div class="content-blocks">Mail:marco@lunahouse.net</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="feature-box">
-                                        <div class="icon-return"></div>
-                                        <div class="content-blocks">Name:Marco
-                                            Hu</div>
-                                    </div>
-                                </li>
-                            </ul>
+                                <ul>
+                                    <li>
+                                        <div class="feature-box">
+                                            <div class="icon-truck"></div>
+                                            <div class="content-blocks
+                                                text-adr">Address:Room
+                                                1003,changchunbuilding,<br />No.159
+                                                Lingqiao Road,Ningbo,China</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="feature-box">
+                                            <div class="icon-support"></div>
+                                            <div class="content-blocks">Call:13857863806</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="feature-box">
+                                            <div class="icon-money"></div>
+                                            <div class="content-blocks">Mail:marco@lunahouse.net</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="feature-box">
+                                            <div class="icon-return"></div>
+                                            <div class="content-blocks">Name:Marco
+                                                Hu</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-        </div>
-        <!-- /.info-boxes -->
-        <!-- ============================================================= FOOTER ============================================================= -->
-        <footer id="footer" class="footer color-bg">
-            <div class="copyright-bar">
-                <div class="container">
-                    <div class="col-xs-12 col-sm-4 no-padding copyright">Luna House Co.,Limited
+                <!-- /.info-boxes -->
+                <!-- ============================================================= FOOTER ============================================================= -->
+                <footer id="footer" class="footer color-bg">
+                    <div class="copyright-bar">
+                        <div class="container">
+                            <div class="col-xs-12 col-sm-4 no-padding
+                                copyright">Luna House Co.,Limited
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </footer>
-        <!-- JavaScripts placed at the end of the document so the pages load faster -->
-        <script src="assets/js/jquery-1.11.1.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/echo.min.js"></script>
-        <script src="assets/js/jquery.easing-1.3.min.js"></script>
-        <script src="assets/js/bootstrap-slider.min.js"></script>
-        <script src="assets/js/jquery.rateit.min.js"></script>
-        <script src="assets/js/lightbox.min.js"></script>
-        <script src="assets/js/bootstrap-select.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
-</body>
+                </footer>
+                <!-- JavaScripts placed at the end of the document so the pages load faster -->
+                <script src="assets/js/jquery-1.11.1.min.js"></script>
+                <script src="assets/js/bootstrap.min.js"></script>
+                <script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+                <script src="assets/js/owl.carousel.min.js"></script>
+                <script src="assets/js/echo.min.js"></script>
+                <script src="assets/js/jquery.easing-1.3.min.js"></script>
+                <script src="assets/js/bootstrap-slider.min.js"></script>
+                <script src="assets/js/jquery.rateit.min.js"></script>
+                <script src="assets/js/lightbox.min.js"></script>
+                <script src="assets/js/bootstrap-select.min.js"></script>
+                <script src="assets/js/wow.min.js"></script>
+                <script src="assets/js/scripts.js"></script>
+            </body>
 
-</html>
+        </html>
