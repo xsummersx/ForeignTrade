@@ -1100,7 +1100,7 @@ a {
 .top-bar {
   padding:0px;
   font-size: 14px;
-  background: #989996;
+  background: #898b8e;
 }
 .top-bar .cnt-account {
   float: right;
@@ -2654,7 +2654,7 @@ float: left;
 
 .our-features-box {
 	overflow: hidden;
-    background: #989996;
+    background: #898b8e;
     padding-top: 40px;
     padding-bottom: 40px;
 	margin-bottom: 0px;
@@ -7499,23 +7499,25 @@ li.dropdown.navbar-right.special-menu {
   cursor: pointer;
 }
 .searchIcon:hover{
-  color:#989996;
+  color:#898b8e;
 }
 .header_info{
   overflow: hidden;
+  margin-top: 30px;
+  padding-left: 30px;
 }
 .header_info>li{
   display: inline-block;
-  float: left;
+  float: right;
   margin-right: 10px;
 }
-.top-bar .header_info > li a{
+ .header_info > li a{
   color: #000 !important;
   font-size: 12px;
 }
-.top-bar .header_info > li a:hover{
+ .header_info > li a:hover{
   color: #333 !important;
 }
-.top-bar .header_info > li a>i{
+ .header_info > li a>i{
   margin-right: 5px;
 }
