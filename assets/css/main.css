@@ -7481,7 +7481,7 @@ li.dropdown.navbar-right.special-menu {
 .search{
   width: 400px;
   height: 38px;
-  border:1px solid #000;
+  border:1px solid #898b8e;
   border-radius: 6px;
   margin-top: 22px;
 }
@@ -7497,9 +7497,10 @@ li.dropdown.navbar-right.special-menu {
 .searchIcon{
   font-size: 18px !important;
   cursor: pointer;
+  color: #898b8e;
 }
 .searchIcon:hover{
-  color:#898b8e;
+  color:#333;
 }
 .header_info{
   overflow: hidden;
@@ -7509,10 +7510,15 @@ li.dropdown.navbar-right.special-menu {
 .header_info>li{
   display: inline-block;
   float: right;
+  padding-right: 10px;
   margin-right: 10px;
+  border-right: 1px solid #898b8e;
+}
+.header_info>li.contactUs,.header_info>li.phone{
+  border-right:none;
 }
  .header_info > li a{
-  color: #000 !important;
+  color: #898b8e !important;
   font-size: 12px;
 }
  .header_info > li a:hover{
