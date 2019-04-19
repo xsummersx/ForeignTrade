@@ -341,3 +341,10 @@ jQuery("[data-toggle='tooltip']").tooltip();
 
 
 })
+
+window.onload = function(){
+    var w= $(".item .products .image a img").width();
+    var h= w/20*13.33;
+    $(".item .products .image a").height(h);
+}
+    
