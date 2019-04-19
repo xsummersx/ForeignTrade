@@ -285,7 +285,6 @@ if (jQuery('.price-slider').length > 0) {
 jQuery(function(){
     jQuery('#owl-single-product').owlCarousel({
         items:1,
-        itemsTablet:[768,3],
         itemsDesktop : [1199,1],
         itemsTablet : [992,1],
         itemsDesktopSmall : [768,3]
@@ -343,8 +342,8 @@ jQuery("[data-toggle='tooltip']").tooltip();
 })
 
 window.onload = function(){
-    var w= $(".item .products .image a img").width();
-    var h= w/20*13.33;
-    $(".item .products .image a").height(h);
+    var w= $(".tab-content .item .products .image a img").width();
+    var h= w/1181*787;
+    $(".tab-content .item .products .image a").height(h);
 }
     
